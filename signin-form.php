@@ -1,11 +1,6 @@
 <?php 
-  session_start();
-  if(isset($_SESSION['unique_id'])){
-    header("location: users.php");
-  }
+include_once "signup-header.php";
 ?>
-
-<?php include_once "signup-header.php"; ?>
 <body>
   <div class="wrapper">
     <section class="form login">
@@ -18,7 +13,7 @@
         </div>
         <div class="field input">
           <label>Contraseña</label>
-          <input type="password" name="password" placeholder="Ingresa tu contraseña" required>
+          <input type="password" name="contra" placeholder="Ingresa tu contraseña" required>
           <i class="fas fa-eye"></i>
         </div>
         <div class="field button">
@@ -29,7 +24,7 @@
     </section>
   </div>
   
-  <script src="javascript/pass-show-hide.js"></script>
+  <script src="javascript/mostrar_pass.js"></script>
   <script src="javascript/login.js"></script>
 
 </body>
