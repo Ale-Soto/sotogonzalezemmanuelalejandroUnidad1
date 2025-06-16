@@ -31,8 +31,6 @@ if (!empty($email) && !empty($contra)){
          // Iniciar sesión y almacenar datos del usuario en variables de sesión para acceder a otros archivos php
          session_start();
          $_SESSION['id_unico'] = $user['unique_id'];
-         $_SESSION['nombre'] = $user['fname'];
-         $_SESSION['apellido'] = $user['lname'];
          // Mensaje de éxito
          echo 'exito';
          exit();

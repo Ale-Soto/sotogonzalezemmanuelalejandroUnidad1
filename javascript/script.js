@@ -21,7 +21,7 @@ themeToggleBtn.addEventListener("click", () => {
   localStorage.setItem("theme", isDark ? "dark" : "light")
   updateThemeIcon()
 })
-// Alternamos la barra en estado oculto cal hacer click en el botón
+// Alternamos la barra en estado oculto al hacer click en el botón
 sidebarToggleBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     sidebar.classList.toggle("collapsed")

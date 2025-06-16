@@ -41,32 +41,32 @@
       <p>Explora nuestra gama de servicios de viaje turístico.</p>
       <ul class="cards">
         <li class="card">
-          <img src="images/tents.jpg" alt="img">
+          <img src="images/ch.jpg" alt="img">
           <h3>Tents</h3>
           <p>Experience comfort and protection with our high-quality camping tents.</p>
         </li>
         <li class="card">
-          <img src="images/bags.jpg" alt="img">
+          <img src="images/vn.jpeg" alt="img">
           <h3>Sleeping Bags</h3>
           <p>Stay cozy and warm during your camping trips with our premium sleeping bags.</p>
         </li>
         <li class="card">
-          <img src="images/stoves.jpg" alt="img">
+          <img src="images/it.jpg" alt="img">
           <h3>Camp Stoves</h3>
           <p>Cook delicious meals in the great outdoors with our reliable camp stoves.</p>
         </li>
         <li class="card">
-          <img src="images/backpacks.jpg" alt="img">
+          <img src="images/ft.jpg" alt="img">
           <h3>Backpacks</h3>
           <p>Carry your essentials comfortably with our durable and functional camping backpacks.</p>
         </li>
         <li class="card">
-          <img src="images/chair.jpg" alt="img">
+          <img src="images/mx.jpg" alt="img">
           <h3>Camp Chairs</h3>
           <p>Relax and unwind in style with our comfortable and portable camping chairs.</p>
         </li>
         <li class="card">
-          <img src="images/light.jpg" alt="img">
+          <img src="images/it.jpg" alt="img">
           <h3>Camp Lights</h3>
           <p>Illuminate your campsite with our reliable and energy-efficient camping lights.</p>
         </li>
@@ -77,59 +77,36 @@
       <p>Take a look at some of our memorable camping adventures.</p>
       <ul class="cards">
         <li class="card">
-          <img src="images/camping-1.jpg" alt="img">
+          <img src="images/mx.jpg" alt="img">
           <h3>Mountain Hiking</h3>
           <p>Embark on an exhilarating hiking adventure in the breathtaking mountain ranges.</p>
         </li>
         <li class="card">
-          <img src="images/camping-2.jpg" alt="img">
+          <img src="images/ft.jpg" alt="img">
           <h3>Lakeside Camping</h3>
           <p>Enjoy a tranquil camping experience by the serene shores of picturesque lakes.</p>
         </li>
         <li class="card">
-          <img src="images/camping-3.jpg" alt="img">
+          <img src="images/jp.jpg" alt="img">
           <h3>Beach Camping</h3>
           <p>Escape to sandy beaches and camp under the starry sky by the crashing waves.</p>
         </li>
         <li class="card">
-          <img src="images/camping-4.jpg" alt="img">
+          <img src="images/ch.jpg" alt="img">
           <h3>Forest Exploration</h3>
           <p>Discover the wonders of lush forests and immerse yourself in nature's beauty.</p>
         </li>
         <li class="card">
-          <img src="images/camping-5.jpg" alt="img">
+          <img src="images/it.jpg" alt="img">
           <h3>RV Camping</h3>
           <p>Experience the freedom of road trips and camping adventures with our RV rentals.</p>
         </li>
         <li class="card">
-          <img src="images/camping-6.jpg" alt="img">
+          <img src="images/vn.jpeg" alt="img">
           <h3>Desert Camping</h3>
           <p>Embark on a unique desert camping experience and witness stunning landscapes.</p>
         </li>
       </ul>
-    </section>
-    <section class="about" id="about">
-      <h2>About Us</h2>
-      <p>Discover our story in providing camping services.</p>
-      <div class="row company-info">
-        <h3>Our Story</h3>
-        <p>Experience the excellence of our camping gear and services, where we have been offering high-quality camping essentials and gear for outdoor enthusiasts for over a decade. Our commitment to quality and customer satisfaction ensures that every adventurer can rely on us for their camping needs.</p>
-      </div>
-      <div class="row mission-vision">
-        <h3>Our Mission</h3>
-        <p>At Camping Gear Experts, our mission is to equip outdoor enthusiasts with top-notch camping gear and essentials that enhance their outdoor experiences. We strive to provide reliable, durable, and innovative products that contribute to memorable adventures and lasting memories.</p>
-        <h3>Our Vision</h3>
-        <p>Our vision is to become the go-to destination for camping enthusiasts, known for our extensive selection of premium camping gear and exceptional customer service. We aspire to inspire and enable people to embrace the beauty of nature and create unforgettable camping experiences.</p>
-      </div>
-      <div class="row team">
-        <h3>Our Team</h3>
-        <ul>
-          <li>John Doe - Founder and CEO</li>
-          <li>Jane Smith - Gear Specialist</li>
-          <li>Mark Johnson - Customer Representative</li>
-          <li>Sarah Brown - Operations Manager</li>
-        </ul>
-      </div>
     </section>
     <section class="contact" id="contact">
       <h2>Contáctanos</h2>
@@ -146,12 +123,12 @@
           </div>          
         </div>
         <div class="col form">
-          <form>
-            <input type="text" placeholder="Nombre*" required>
-            <input type="email" placeholder="Correo*" required>
-            <textarea placeholder="Mensaje*" required></textarea>
-            <button id="submit" type="submit">Enviar</button>
-          </form>
+          <form method="POST">
+            <input type="text" name="nombre" placeholder="Nombre*" required>
+            <input type="email" name="email" placeholder="Correo*" required>
+            <textarea placeholder="Mensaje*" name="msg" required></textarea>
+            <button id="submit" name="enviar" type="submit">Enviar</button>
+          </forml>
         </div>
       </div>
     </section>
@@ -162,12 +139,10 @@
       
       <div class="footer-box">
         <div class="topic">Mapa de sitio</div>
-        <a href="#">Web Design, Development</a>
-        <a href="#">Web UX Design, Reasearch</a>
-        <a href="#">Web User Interface Design</a>
-        <a href="#">Theme Development, Design</a>
-        <a href="#">Mobile Application Design</a>
-        <a href="#">Wireframing & Prototyping</a>
+        <a href="#">Inicio</a>
+        <a href="#contact">contáctanos</a>
+        <a href="signup-form.php">Registrate</a>
+        <a href="signin-form.php">Iniciar Sesión</a>
       </div>
       
       <div class="footer-box">
